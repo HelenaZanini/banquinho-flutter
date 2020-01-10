@@ -1,4 +1,4 @@
-import 'package:bytebank_alura/widgets/account.dart';
+import 'package:bytebank_alura/widgets/accountDashboard/AccountDashboard.dart';
 import 'package:bytebank_alura/widgets/form/TransactionForm.dart';
 import 'package:bytebank_alura/widgets/home.dart';
 import 'package:flutter/material.dart';
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => HomePage(title: 'Movimentações'),
-        '/account': (context) => Account(),
+        '/account': (context) => AccountDashboard(),
         '/transaction-form': (context) => TransactionForm(),
       },
     );
